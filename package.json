@@ -1,0 +1,19 @@
+{
+  "name": "github-assistant-api",
+  "version": "1.0.0",
+  "description": "API for AI assistants to interact with GitHub",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^19.0.7",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
